@@ -9,7 +9,7 @@ Following these keeps the shelf consistent, verifiable, and syncable.
 - Files are `dash-case.html` matching their title (e.g. `play-as-recovery.html`).
 - Docs carry a **Reference NN** number in the `<p class="kicker">` and the
   `<footer>`, plus a title in the `<title>` and `<h1>`.
-- Numbers are assigned in creation order (01–16 today). The glossary is the one
+- Numbers are assigned in creation order (01–17 today). The glossary is the one
   unnumbered doc (`Reference · Learning to Learn`).
 - A new doc gets the next free number and must be added to:
   1. the `<nav class="ref-nav">` of every closely-related doc,
@@ -32,6 +32,12 @@ Every doc follows this skeleton (see `study-advice.html` for the canonical examp
 </head>
 <body>
 <main>
+```
+
+Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
+`<!doctype html>` + self-closing metas in the newest); pick either for new docs
+— both render identically — but don't convert existing files for cosmetics.
+```
 
 <header class="lesson-head">
   <p class="kicker">Reference NN · Learning to Learn</p>
@@ -59,9 +65,11 @@ Every doc follows this skeleton (see `study-advice.html` for the canonical examp
 
 ## Content rules
 
-- **Headings carry meaning, not ordinals.** Do not number sections
-  ("First principle", "1 ·", "Part 2") in headings. Use descriptive titles.
-  Numbers are allowed when they are the content (lesson numbers, years, counts).
+- **Headings carry meaning, not ordinals.** Do not use bare section ordinals
+  ("1 ·", "Part 2") as headings — use descriptive titles. Numbers are allowed
+  when they are the content: lesson numbers, years, counts, and named items
+  ("Myth 1", "Step 1", "Pillar 1"). Prefer the named form ("Step 1 · Define the
+  goal") over the bare ordinal ("1 · Define the goal").
 - **Cite at the bottom, `span.cite` lines**, separated by `&nbsp;·&nbsp;`.
   One line per evidence cluster (e.g. one for the primary source, one for the
   research base, one for Wikipedia/background links). Use the `div.references`
@@ -81,18 +89,25 @@ Every doc follows this skeleton (see `study-advice.html` for the canonical examp
 
 ## The Arabic twins
 
-- Only docs with twins: `rest-and-recovery.html`, `play-as-recovery.html`
-  (`reference/ar/`). The EN doc is authoritative; the AR twin mirrors it 1:1.
+- Seven twins exist (`reference/ar/`): `rest-and-recovery`, `play-as-recovery`,
+  `wanting-vs-liking`, `learning-to-learn-glossary`, `study-advice`,
+  `memory-techniques`, `learning-system`. The EN doc is authoritative; the AR
+  twin mirrors it 1:1. Live status in `twin-status.md`.
+- New twins use the translate-to-arabic skill's gate battery, vendored in-repo
+  as `scripts/verify-twins.py`: heading parity, identical h2 ids, AR/EN char
+  ratio in the 0.75–0.97 band, lang-switch lines both ways.
 - **SYNC, don't append:** when the EN doc changes, the twin must be brought
   fully current (missing sections added, renamed sections renamed, tables
   rebuilt) — not just patched.
 - **House voice:** translate into the twin's established terminology (check the
   twin itself for existing terms — e.g. الاستمتاع/الرغبة for liking/wanting)
   rather than inventing new ones.
-- **Gates to verify after a sync:** HTML tag balance in both files; heading
-  parity (same h2/h3 counts); AR/EN character ratio in the 0.75–0.97 band;
-  no stray characters (e.g. `§`) in the AR file; all AR links resolve
-  (including `#anchor` targets inside other AR twins).
+- **Gates to verify after a sync** (`scripts/verify-twins.py`, run from the
+  `reference/` dir): HTML tag balance in both files; heading parity (same
+  h2/h3 counts); AR/EN character ratio in the 0.75–0.97 band; no stray
+  characters (e.g. `§`) in the AR file; all AR links resolve (including
+  `#anchor` targets inside other AR twins). `scripts/density-audit.py`
+  flags per-section prose-abbreviation candidates.
 
 ## Verification
 
