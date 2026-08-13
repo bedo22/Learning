@@ -86,6 +86,11 @@ Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
   introduced by a doc must be added there (with the doc as the "See" target).
 - **Reuse citations.** Before citing something new, check whether the shelf
   already cites it — the reference list is shared, not per-doc.
+- **When citing a *mechanism*, check its replication record.** A finding can be
+  well-supported while the mechanism behind it is contested (e.g. ego-depletion
+  as a resource: the preregistered multilab replication found d ≈ 0.04 — the
+  wanting doc cites it as the caveat). State contested mechanisms honestly
+  rather than as established fact.
 
 ## The Arabic twins
 
