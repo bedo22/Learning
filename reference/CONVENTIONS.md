@@ -9,7 +9,7 @@ Following these keeps the shelf consistent, verifiable, and syncable.
 - Files are `dash-case.html` matching their title (e.g. `play-as-recovery.html`).
 - Docs carry a **Reference NN** number in the `<p class="kicker">` and the
   `<footer>`, plus a title in the `<title>` and `<h1>`.
-- Numbers are assigned in creation order (01–17 today). The glossary is the one
+- Numbers are assigned in creation order (01–19 today). The glossary is the one
   unnumbered doc (`Reference · Learning to Learn`).
 - A new doc gets the next free number and must be added to:
   1. the `<nav class="ref-nav">` of every closely-related doc,
@@ -94,10 +94,11 @@ Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
 
 ## The Arabic twins
 
-- Seven twins exist (`reference/ar/`): `rest-and-recovery`, `play-as-recovery`,
+- Nine twins exist (`reference/ar/`): `rest-and-recovery`, `play-as-recovery`,
   `wanting-vs-liking`, `learning-to-learn-glossary`, `study-advice`,
-  `memory-techniques`, `learning-system`. The EN doc is authoritative; the AR
-  twin mirrors it 1:1. Live status in `twin-status.md`.
+  `memory-techniques`, `learning-system`, `planning-and-execution`,
+  `focus-and-attention`. The EN doc is authoritative; the AR twin mirrors it
+  1:1. Live status in `twin-status.md`.
 - New twins use the translate-to-arabic skill's gate battery, vendored in-repo
   as `scripts/verify-twins.py`: heading parity, identical h2 ids, AR/EN char
   ratio in the 0.75–0.97 band, lang-switch lines both ways.
@@ -113,6 +114,20 @@ Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
   characters (e.g. `§`) in the AR file; all AR links resolve (including
   `#anchor` targets inside other AR twins). `scripts/density-audit.py`
   flags per-section prose-abbreviation candidates.
+
+## Coverage
+
+- **`COVERAGE.md` is the shelf's external domain model** — the node-by-node map
+  of what the learner must be able to do, and which doc/lesson/glossary/twin
+  covers each node. It is the definition of "complete": a node is covered when
+  it has a doc + lesson + glossary terms (twin for core nodes); the shelf is
+  complete when every node is covered AND the internal checks below pass.
+- **Update `COVERAGE.md` in the same commit as any shelf change** (new doc,
+  new lesson, new glossary term, new twin). An empty cell in the map is a gap
+  by definition — this is how the planning and focus GAPs were caught.
+- **Language discipline:** use "internally consistent" for a shelf whose
+  internal checks pass; reserve "complete" for a shelf whose coverage map is
+  green. Verification of what exists cannot see absence.
 
 ## Verification
 
