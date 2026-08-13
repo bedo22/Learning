@@ -94,10 +94,11 @@ Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
 
 ## The Arabic twins
 
-- Nine twins exist (`reference/ar/`): `rest-and-recovery`, `play-as-recovery`,
+- Thirteen twins exist (`reference/ar/`): `rest-and-recovery`, `play-as-recovery`,
   `wanting-vs-liking`, `learning-to-learn-glossary`, `study-advice`,
   `memory-techniques`, `learning-system`, `planning-and-execution`,
-  `focus-and-attention`. The EN doc is authoritative; the AR twin mirrors it
+  `focus-and-attention`, `learning-myths`, `ai-and-learning`,
+  `productivity-systems`, `self-management`. The EN doc is authoritative; the AR twin mirrors it
   1:1. Live status in `twin-status.md`.
 - New twins use the translate-to-arabic skill's gate battery, vendored in-repo
   as `scripts/verify-twins.py`: heading parity, identical h2 ids, AR/EN char

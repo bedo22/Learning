@@ -32,11 +32,11 @@ Glossary; **THIN** when it has Doc but no Lesson (or only passing mention);
 | 4 | **Regulate** | Know what you don't know, keep going, manage urges: metacognition, motivation, wanting | metacognition, motivation, wanting-vs-liking | 0020, 0021, 0022 | ✅ | wanting-vs-liking | ✅ COVERED |
 | 5 | **Execute — plan** | Turn intention into scheduled action: plan, decompose, review | planning-and-execution | 0023 | ✅ | ✅ | ✅ COVERED (new) |
 | 6 | **Execute — focus** | Protect and direct attention: single-task, resist distraction, recover focus | focus-and-attention | 0024 | ✅ | ✅ | ✅ COVERED (new) |
-| 7 | **Execute — systems** | Run the weekly machinery: cues, scripts, time & task management | productivity-systems, self-management | 0007, 0008, 0009, 0010 | ✅ | — | ⚠️ THIN (no twins; content lives inside Justin Sung's Part 4) |
+| 7 | **Execute — systems** | Run the weekly machinery: cues, scripts, time & task management | productivity-systems, self-management | 0007, 0008, 0009, 0010 | ✅ | both | ✅ COVERED (twins added 2026-08-13) |
 | 8 | **Sustain** | Recover energy, rest well, play: rest, recovery, play | rest-and-recovery, play-as-recovery | 0004–0006, 0007b–g | ✅ | both | ✅ COVERED |
-| 9 | **Set direction** | Know the "why & who": goals, meta-goals | reverse-goal-setting | — | ✅ | — | ⚠️ THIN (no lesson) |
-| 10 | **Guard against myths** | Spot false learning beliefs: myths, AI misuse | learning-myths, ai-and-learning | 0022 | ✅ | — | ⚠️ THIN (no twins) |
-| 11 | **Use tools (AI)** | Use AI without fluency theft | ai-and-learning | 0021 | ✅ | — | ⚠️ THIN (no twin) |
+| 9 | **Set direction** | Know the "why & who": goals, meta-goals | reverse-goal-setting | 0025 | ✅ | — | ✅ COVERED (lesson 0025 added 2026-08-13) |
+| 10 | **Guard against myths** | Spot false learning beliefs: myths, AI misuse | learning-myths, ai-and-learning | 0022 | ✅ | learning-myths | ✅ COVERED (twins added 2026-08-13) |
+| 11 | **Use tools (AI)** | Use AI without fluency theft | ai-and-learning | 0021 | ✅ | ai-and-learning | ✅ COVERED (twin added 2026-08-13) |
 | 12 | **Meta** | Navigate the system: glossary, index, conventions | glossary, index | — | — | glossary | ✅ COVERED |
 
 ## What "complete" means — the operational definition
@@ -64,18 +64,21 @@ Until all three hold, the honest word is **"internally consistent"**, never
    grows a section updates its node's coverage; a new doc adds a node or fills
    an empty cell.
 
-## Open cells (as of 2026-08-13)
+## Open cells (as of 2026-08-13, evening pass)
 
-- **Node 7 (systems)** — has two docs but no twins. Voluntary: twins for
-  productivity-systems and self-management would make the execute layer fully
-  Arabic-accessible.
-- **Node 9 (direction)** — reverse-goal-setting has no lesson. A lesson on
-  meta-goals/force-field would close it.
-- **Node 10 (myths)** — learning-myths has no twin.
-- **Node 11 (AI)** — ai-and-learning has no twin.
+None. The four THIN cells from the morning audit were closed in the same day:
 
-None of these are gaps in *content* — every node is learnable. They are gaps
-in *coverage depth* (twin/lesson completeness), which is why the table says
-THIN rather than GAP. The distinction matters: THIN = content exists, artifact
-missing; GAP = no doc owns the topic. The 2026-08-13 audit found two GAPs —
-planning and focus — which is what created this file and the two new docs.
+- **Node 7 (systems)** — twins added for productivity-systems and
+  self-management; the execute layer is now fully Arabic-accessible.
+- **Node 9 (direction)** — lesson 0025 ("Become the Person, Not the
+  Outcome") added for reverse-goal-setting.
+- **Node 10 (myths)** — learning-myths twin added.
+- **Node 11 (AI)** — ai-and-learning twin added.
+
+Every node in the model is now **COVERED** (Doc + Lesson + Glossary; twins
+for core nodes). The honest remaining caveats are structural, not coverage:
+three non-core docs (orders-of-learning, skill-acquisition, note-taking) have
+no twins, and reverse-goal-setting, motivation, and metacognition have no
+lesson of their own — both are voluntary depth work, not gaps. The next audit
+should re-derive the domain model from MISSION.md from scratch (rather than
+patching this table) to confirm the boundary itself hasn't drifted.

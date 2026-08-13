@@ -13,21 +13,21 @@ Legend: **✅ synced** (all gates green) · **🟡 stale** (EN changed since las
 | Ref | EN doc | AR twin | Status |
 |---|---|---|---|
 | 01 | `blooms-six-levels-of-thinking.html` | — | — none |
-| 02 | `learning-myths.html` | — | — none |
+| 02 | `learning-myths.html` | `ar/learning-myths.html` | ✅ synced |
 | 03 | `learning-system.html` | `ar/learning-system.html` | ✅ synced |
 | 04 | `orders-of-learning.html` | — | — none |
-| 05 | `metacognition-and-calibration.html` | — | — none |
+| 05 | `self-management.html` | `ar/self-management.html` | ✅ synced |
 | 06 | `memory-techniques.html` | `ar/memory-techniques.html` | ✅ synced |
 | 07 | `study-advice.html` | `ar/study-advice.html` | ✅ synced |
 | 08 | `rest-and-recovery.html` | `ar/rest-and-recovery.html` | ✅ synced |
-| 09 | `note-taking.html` | — | — none |
-| 10 | `productivity-systems.html` | — | — none |
-| 11 | `self-management.html` | — | — none |
-| 12 | `motivation-and-self-determination.html` | — | — none |
-| 13 | `reverse-goal-setting.html` | — | — none |
-| 14 | `skill-acquisition.html` | — | — none |
-| 15 | `ai-and-learning.html` | — | — none |
-| 16 | `play-as-recovery.html` | `ar/play-as-recovery.html` | ✅ synced |
+| 09 | `productivity-systems.html` | `ar/productivity-systems.html` | ✅ synced |
+| 10 | `reverse-goal-setting.html` | — | — none |
+| 11 | `skill-acquisition.html` | — | — none |
+| 12 | `play-as-recovery.html` | `ar/play-as-recovery.html` | ✅ synced |
+| 13 | `motivation-and-self-determination.html` | — | — none |
+| 14 | `metacognition-and-calibration.html` | — | — none |
+| 15 | `ai-and-learning.html` | `ar/ai-and-learning.html` | ✅ synced |
+| 16 | `note-taking.html` | — | — none |
 | 17 | `wanting-vs-liking.html` | `ar/wanting-vs-liking.html` | ✅ synced |
 | 18 | `planning-and-execution.html` | `ar/planning-and-execution.html` | ✅ synced |
 | 19 | `focus-and-attention.html` | `ar/focus-and-attention.html` | ✅ synced |
