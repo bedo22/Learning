@@ -140,6 +140,124 @@
         </p>
       </div>
 
+      <h2 id="trustworthiness">How trustworthiness works — DOIs, verification, and what makes a citation real</h2>
+      <p>
+        The shelf uses several mechanisms to ensure citations aren't just names
+        in parentheses. Here's how each layer works, and what you or an agent
+        can do to verify a claim independently.
+      </p>
+
+      <h3>What is a DOI?</h3>
+      <p>
+        A <strong>DOI</strong> (Digital Object Identifier) is a permanent,
+        machine-readable address for a paper — like a street address that never
+        changes even if the building moves. Format: <code>10.XXXX/XXXXX</code>.
+        Every DOI resolves to a paper via <code>https://doi.org/{DOI}</code>.
+      </p>
+      <p>
+        <strong>Why it matters:</strong> URLs rot — journal sites restructure,
+        links break, pages move. DOIs don't. A DOI from 1972 still works today.
+        When the shelf cites a paper, it uses the DOI as the permanent anchor.
+        If a DOI returns 404, the citation is flagged as broken.
+      </p>
+      <ul>
+        <li><strong>DOI example:</strong> <code>10.1080/10413200802435677</code> → resolves to Bjork &amp; Bjork (2011) on the publisher site.</li>
+        <li><strong>Verify any DOI yourself:</strong> visit <code>https://doi.org/{DOI}</code> — if the paper loads, the DOI is real.</li>
+      </ul>
+
+      <h3>How Crossref verification works</h3>
+      <p>
+        <strong>Crossref</strong> is the registration agency for academic DOIs —
+        the official registry. When our verification script checks a DOI, it
+        queries:
+      </p>
+      <pre><code>GET https://api.crossref.org/works/{DOI}</code></pre>
+      <p>
+        A <strong>200 response</strong> means the DOI is registered and active in
+        the official database. A <strong>404</strong> means it's not registered —
+        either the DOI is wrong, or the paper doesn't exist. We treat 404 as a
+        failure and fix the citation.
+      </p>
+      <p>
+        This is stronger than just clicking a link and hoping it loads. A DOI
+        can return 200 on the publisher site (because the site has its own
+        redirect) while being unregistered in Crossref (meaning it was made up
+        or is from a predatory journal). Crossref is the independent auditor.
+      </p>
+
+      <h3>The verification chain</h3>
+      <p>
+        A citation in this shelf goes through this chain before it ships:
+      </p>
+      <ol>
+        <li>
+          <strong>Paper cited in the shelf</strong> — a <code>span.cite</code>
+          block names the paper and its DOI.
+        </li>
+        <li>
+          <strong>Source digest created</strong> — a digest in
+          <code>sources/</code> captures the DOI, verified link, key quotes,
+          findings, and caveats.
+        </li>
+        <li>
+          <strong>Crossref verification</strong> — the DOI is checked against
+          the Crossref API. Only verified DOIs pass.
+        </li>
+        <li>
+          <strong>Results cached</strong> — verification results are stored in
+          <code>.link-cache.json</code>. Re-runs make zero network requests
+          unless a link changes.
+        </li>
+        <li>
+          <strong>Linked back to the shelf</strong> — the
+          <code>link-sources.py</code> script adds 📄 links from every
+          evidence cluster to its digest. 1,300+ links across 18 docs.
+        </li>
+      </ol>
+
+      <h3>What an agent should do when researching a claim</h3>
+      <p>
+        When an AI agent encounters a claim in the shelf and wants to verify it:
+      </p>
+      <ol>
+        <li>
+          <strong>Check the source digest first.</strong> The digest in
+          <code>sources/</code> has the DOI, key quotes, and what the doc
+          claims from the paper — no need to re-scrape the web.
+        </li>
+        <li>
+          <strong>Read the "Does NOT support" section.</strong> This is the
+          boundary — it defines what you must <em>not</em> use that paper to
+          claim. Most misreadings come from ignoring this section.
+        </li>
+        <li>
+          <strong>Verify the DOI yourself if needed.</strong> Query Crossref:
+          <code>curl https://api.crossref.org/works/{DOI}</code> — a 200 means
+          the paper is real and registered.
+        </li>
+        <li>
+          <strong>Follow the fallback chain for full text.</strong> See
+          <a href="sources/SOURCE-ACCESS.md">SOURCE-ACCESS.md</a> for
+          step-by-step access by source type (open-access, paywalled, book,
+          preprint).
+        </li>
+      </ol>
+
+      <div class="callout">
+        <h3>The "trust but verify" rule</h3>
+        <p>
+          This shelf is <strong>not</strong> asking you to trust it blindly. The
+          trust tier tells you <em>how strong</em> the evidence is. The source
+          digest tells you <em>exactly what the paper says</em>. The DOI lets
+          you <em>check the paper yourself</em>. The Crossref verification
+          means <em>someone already checked</em>. And the
+          <code>Does NOT support</code> section tells you <em>where the claim
+          stops</em>. Every layer is designed so you never have to take a
+          claim on faith — there's always a paper you can pull, a DOI you can
+          verify, and a digest that shows you what it actually found.
+        </p>
+      </div>
+
       <h2 id="coverage">Coverage — what's backed and what's not</h2>
       <table>
         <thead>
