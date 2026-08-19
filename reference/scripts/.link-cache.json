@@ -1282,5 +1282,101 @@
     "users": [
       "sources/cowan-2001-magical-number-four.md"
     ]
+  },
+  "https://doi.org/10.1007/s10648-021-09595-9": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/agarwal-2021-retrieval-practice.md"
+    ]
+  },
+  "https://doi.org/10.1016/j.neuron.2014.08.060": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/gruber-2014-curiosity-memory.md"
+    ]
+  },
+  "https://doi.org/10.1037/0022-3514.76.3.482": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/sheldon-elliot-1999-self-concordance.md"
+    ]
+  },
+  "https://doi.org/10.1037/0033-295X.100.3.363": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/ericsson-1993-deliberate-practice.md"
+    ]
+  },
+  "https://doi.org/10.1037/h0035519": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/lepper-1973-overjustification.md"
+    ]
+  },
+  "https://doi.org/10.1111/tct.70353": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/maye-hurley-2026-spaced-repetition.md"
+    ]
+  },
+  "https://doi.org/10.1126/sciadv.abc7606": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/wagner-2021-mnemonic-training.md"
+    ]
+  },
+  "https://doi.org/10.1207/s15326985ep4102_4": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/hidi-renninger-2006-interest.md"
+    ]
+  },
+  "https://doi.org/10.3390/bs15060771": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/mawson-kang-2025-distributed-practice.md"
+    ]
+  },
+  "https://www.cell.com/neuron/fulltext/S0896-6273(14)00761-5": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/gruber-2014-curiosity-memory.md"
+    ]
+  },
+  "https://www.mdpi.com/2076-3425/15/6/771": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/mawson-kang-2025-distributed-practice.md"
+    ]
+  },
+  "https://www.science.org/doi/10.1126/sciadv.abc7606": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T13:55:44.487710+00:00",
+    "users": [
+      "sources/wagner-2021-mnemonic-training.md"
+    ]
   }
 }
