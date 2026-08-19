@@ -1146,5 +1146,77 @@
     "users": [
       "sources/brodt-2023-sleep-systems.md"
     ]
+  },
+  "https://doi.org/10.1037/0003-066X.57.9.705": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/locke-latham-2002-goal-setting.md"
+    ]
+  },
+  "https://doi.org/10.1037/0022-3514.85.4.756": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/vallerand-2003-harmonious-obsessive-passion.md"
+    ]
+  },
+  "https://doi.org/10.1080/10463283.2011.643698": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/oettingen-2012-woop.md"
+    ]
+  },
+  "https://doi.org/10.1111/j.1467-9280.2006.01693.x": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/roediger-karpicke-2006-testing-effect.md"
+    ]
+  },
+  "https://doi.org/10.1126/science.1199327": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/karpicke-blunt-2011-retrieval.md"
+    ]
+  },
+  "https://doi.org/10.1146/annurev-psych-010416-044022": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/metcalfe-2017-learning-from-errors.md"
+    ]
+  },
+  "https://doi.org/10.1177/1529100612453266": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/dunlosky-2013-ten-techniques.md"
+    ]
+  },
+  "https://doi.org/10.4324/9780203842539-14": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/bjork-bjork-2011-desirable-difficulties.md"
+    ]
+  },
+  "https://journals.sagepub.com/doi/full/10.1177/1529100612453266": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T12:42:52.466347+00:00",
+    "users": [
+      "sources/dunlosky-2013-ten-techniques.md"
+    ]
   }
 }
