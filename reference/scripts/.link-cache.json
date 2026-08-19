@@ -1218,5 +1218,69 @@
     "users": [
       "sources/dunlosky-2013-ten-techniques.md"
     ]
+  },
+  "https://doi.org/10.1016/s0022-5371(72)80001-x": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:44:52.399019+00:00",
+    "users": [
+      "sources/craik-lockhart-1972-levels-of-processing.md"
+    ]
+  },
+  "https://doi.org/10.1016/s0079-7421(08)60452-1": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:44:52.399019+00:00",
+    "users": [
+      "sources/baddeley-hitch-1974-working-memory.md"
+    ]
+  },
+  "https://doi.org/10.1017/s0140525x01003922": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:44:52.399019+00:00",
+    "users": [
+      "sources/cowan-2001-magical-number-four.md"
+    ]
+  },
+  "https://doi.org/10.1037/0003-066X.34.10.906": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:44:52.399019+00:00",
+    "users": [
+      "sources/flavell-1979-metacognition.md"
+    ]
+  },
+  "https://doi.org/10.1037/h0020071": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:44:52.399019+00:00",
+    "users": [
+      "sources/tulving-thomson-1973-encoding-specificity.md"
+    ]
+  },
+  "https://doi.org/10.1037/h0054346": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T13:44:52.399019+00:00",
+    "users": [
+      "sources/miller-1956-magical-number-seven.md"
+    ]
+  },
+  "https://www.jstor.org/stable/1418623": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-19T13:44:52.399019+00:00",
+    "users": [
+      "sources/miller-1956-magical-number-seven.md"
+    ]
+  },
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1405216/": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-19T13:44:52.399019+00:00",
+    "users": [
+      "sources/cowan-2001-magical-number-four.md"
+    ]
   }
 }
