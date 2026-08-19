@@ -157,4 +157,24 @@ dl.ref dd{margin:.15rem 0 .4rem 1rem; color:var(--ink-soft)}
 .flow .arrow{color:var(--accent-soft); font-weight:700}
 .ref-nav{font-family:ui-sans-serif,system-ui,sans-serif; font-size:.84rem; margin:1.6rem 0; padding:.8rem 1rem; border:1px solid var(--rule); border-radius:6px; background:#fffefb}
 .ref-nav strong{color:var(--ink)}
-@media print{ table,dl.ref,.flow,.ref-nav{break-inside:avoid} }
+/* ---- Section map (TOC) ---- */
+toc,.toc{font-family:ui-sans-serif,system-ui,sans-serif; font-size:.88rem; margin:1.4rem 0 1.8rem; padding:.8rem 1rem; border:1px solid var(--rule); border-radius:6px; background:#fffefb}
+.toc p{margin:0 0 .4rem; font-weight:600; color:var(--ink-soft); font-size:.8rem; letter-spacing:.04em; text-transform:uppercase}
+.toc ol{margin:0; padding-left:1.4rem; columns:2; column-gap:2rem}
+.toc li{margin:.2rem 0; break-inside:avoid}
+.toc a{color:var(--ink); text-decoration:none}
+.toc a:hover{color:var(--accent); text-decoration:underline}
+@media (max-width:30rem){.toc ol{columns:1}}
+/* ---- Strict list score colors ---- */
+.score-good{color:var(--good); font-weight:600}
+.score-mid{color:var(--accent); font-weight:600}
+.score-bad{color:var(--bad); font-weight:600}
+/* ---- Back-to-top anchor ---- */
+.back-top{text-align:right; margin:1.6rem 0 .2rem}
+.back-top a{font-family:ui-sans-serif,system-ui,sans-serif; font-size:.78rem; color:var(--muted); text-decoration:none; letter-spacing:.03em}
+.back-top a:hover{color:var(--accent); text-decoration:underline}
+/* ---- Details/summary (collapsible) ---- */
+details{margin:1rem 0}
+details>summary{font-family:ui-sans-serif,system-ui,sans-serif; font-size:.9rem; font-weight:600; color:var(--ink-soft); cursor:pointer; padding:.4rem 0}
+details>summary:hover{color:var(--accent)}
+@media print{ table,dl.ref,.flow,.ref-nav,.toc{break-inside:avoid} }
