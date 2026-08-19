@@ -92,6 +92,34 @@ Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
   wanting doc cites it as the caveat). State contested mechanisms honestly
   rather than as established fact.
 
+## Source digests & verified citations
+
+- **Every evidence cluster cites a source digest.** Digests live in
+  `reference/sources/<short-key>.md`, one per paper the shelf actually cites.
+  Follow `sources/_TEMPLATE.md` exactly — every field is load-bearing for the
+  verification pipeline.
+- **A digest is the accumulated research asset.** Before researching a claim
+  again, grep `sources/` for the paper — the digest holds the DOI, the verified
+  link, the key quotes with locations, and what each doc claims from it.
+  Research is done once, then reused (this is what makes each future question
+  faster instead of re-scraping the web).
+- **Every citation carries a verifiable identifier.** DOIs are preferred
+  (they are permanent and machine-checkable). Books without a DOI use a
+  verified stable URL (publisher page, institute page, or open archive). Write
+  DOIs as real links in the docs: `<a href="https://doi.org/...">`.
+- **Run `python3 scripts/verify-links.py` before shipping.** It is the gate
+  that makes "verified citations" true: cache-first (steady state makes zero
+  network requests), Crossref-verified DOIs, rate-limited to ≤1 req/s with
+  jitter + backoff. It reports any dead link, then the fix belongs in the doc
+  AND its source digest. **It scans the docs AND the digests** — a dead
+  DOI/URL in `sources/*.md` fails the run just like one in a doc.
+- **Digests are English-only** — sources are language-neutral; the AR twin
+  mirrors the same citation text (DOI link included) but does not get its own
+  digest copy.
+- **Reuse, don't re-digest.** When a doc cites a paper that already has a
+  digest, update the digest's "what the doc claims" list — never create a
+  second digest for the same paper.
+
 ## The Arabic twins
 
 - Thirteen twins exist (`reference/ar/`): `rest-and-recovery`, `play-as-recovery`,
