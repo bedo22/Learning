@@ -33,7 +33,11 @@ header.lesson-head .kicker{
   font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size:.75rem; letter-spacing:.14em; text-transform:uppercase;
   color:var(--muted); margin:0 0 .25rem;
+  display:flex; justify-content:space-between; align-items:center;
 }
+header.lesson-head .kicker a{color:var(--muted); text-decoration:none}
+header.lesson-head .kicker a:hover{color:var(--accent); text-decoration:underline}
+.lang-switch-inline{font-size:.75rem; letter-spacing:.08em}
 header.lesson-head h1{
   font-size:1.9rem; line-height:1.2; margin:.2rem 0 .8rem; font-weight:600;
 }
