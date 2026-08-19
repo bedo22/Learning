@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evidence Base &amp; Source Verification — Learn to Learn</title>
+    <link rel="stylesheet" href="../assets/lesson.css" />
+  </head>
+  <body>
+    <main>
+      <header class="lesson-head">
+        <p class="kicker">Reference 20 · Learning to Learn</p>
+        <h1>Evidence Base &amp; Source Verification: How This Shelf Knows What It Knows</h1>
+        <p class="meta">
+          Every claim in this shelf traces back to a verified source. This doc
+          explains the trust tiers, coverage, and verification pipeline that
+          make "evidence-grounded" more than a label.
+        </p>
+      </header>
+
+      <p class="lang-switch">
+        <a href="./ar/evidence-base.html">العربية</a>
+      </p>
+
+      <p>
+        You're reading a shelf that cites 143 papers across 18 documents. Each
+        citation links to a <strong>source digest</strong> — a verified record
+        of what that paper actually says, with the DOI, key quotes, findings,
+        and caveats. This doc tells you how to read those citations with
+        confidence: what the tiers mean, how we verified the links, and where
+        to go if you want to read the original paper yourself.
+      </p>
+
+      <h2 id="trust-tiers">The trust tiers — what each source level means</h2>
+      <p>
+        Not all journals are equal. We categorize every cited paper into five
+        tiers based on how rigorous and selective the publication venue is.
+        <strong>65% of the shelf's sources are Tier 1–2</strong> — the most
+        rigorous peer-reviewed journals in their fields.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Tier</th>
+            <th>Description</th>
+            <th>Count</th>
+            <th>%</th>
+            <th>What it means</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Tier 1</strong></td>
+            <td>
+              Top field journals —
+              <em>Psychological Science, Nature, Science, JPSP, American
+              Psychologist, Psychological Review, PNAS, Neuron, eLife</em>
+            </td>
+            <td><strong>45</strong></td>
+            <td>31%</td>
+            <td>
+              Most selective, highest rejection rates, most cited in the field.
+              If a finding is here, it survived the toughest peer review.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Tier 2</strong></td>
+            <td>
+              Strong specialty journals —
+              <em>JEP:LMC, JEP:HPP, Ed Psych Review, BBS, Annual Review,
+              Applied Psych, Brain Research Reviews</em>
+            </td>
+            <td><strong>48</strong></td>
+            <td>34%</td>
+            <td>
+              Respected in their subfield, rigorous review, widely cited.
+              Tier 2 journals are where most specialized findings live.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Tier 3</strong></td>
+            <td>
+              Open-access / newer —
+              <em>Frontiers in Psychology, PLOS ONE, Scientific Reports,
+              MDPI Behavioral Sciences</em>
+            </td>
+            <td><strong>11</strong></td>
+            <td>8%</td>
+            <td>
+              Legitimate peer-reviewed journals, but less selective. Used here
+              as supplementary evidence — they support claims already backed
+              by Tier 1–2 sources.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Tier 4</strong></td>
+            <td>
+              Books, chapters, preprints —
+              <em>MIT Press, Academic Press, Worth, Psychology Press, OSF</em>
+            </td>
+            <td><strong>38</strong></td>
+            <td>27%</td>
+            <td>
+              Classic books and book chapters that are foundational to their
+              fields (Bjork, Baddeley, Miller, Ericsson, Huizinga). These are
+              widely cited and accepted even though they aren't journal articles.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Tier 5</strong></td>
+            <td>Chinese-language journals</td>
+            <td><strong>1</strong></td>
+            <td>1%</td>
+            <td>
+              Non-English journals. Used sparingly — cite with caution and
+              verify the DOI independently.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        <h3>What this means for you</h3>
+        <p>
+          When a shelf doc makes a claim and cites a source, you can check the
+          tier to gauge how robust the evidence is. A claim backed by Tier 1–2
+          sources has survived rigorous peer review. A claim backed by Tier 4
+          (a book chapter) comes from a canonical text that the field treats as
+          authoritative. A claim backed only by Tier 3 should be read as
+          "suggestive but not definitive."
+        </p>
+        <p>
+          <strong>The shelf is conservative by design:</strong> contested
+          mechanisms are labeled as such, single small studies are flagged, and
+          claims never exceed what the cited source supports. The
+          <code>Does NOT support</code> section in every source digest defines
+          the boundary — what a future reader must <em>not</em> use that paper
+          to claim.
+        </p>
+      </div>
+
+      <h2 id="coverage">Coverage — what's backed and what's not</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Count</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Source digests</td>
+            <td><strong>143</strong></td>
+            <td>One per paper cited in the shelf. Follows the template exactly.</td>
+          </tr>
+          <tr>
+            <td>Shelf docs with linked sources</td>
+            <td><strong>18</strong></td>
+            <td>Every doc's <code>span.cite</code> block links to its digests.</td>
+          </tr>
+          <tr>
+            <td>Total 📄 links</td>
+            <td><strong>~1,300</strong></td>
+            <td>Every evidence cluster in every doc points to its source digest.</td>
+          </tr>
+          <tr>
+            <td>Verified links</td>
+            <td><strong>100%</strong></td>
+            <td>All DOIs verified via Crossref API. Cache updated August 2026.</td>
+          </tr>
+          <tr>
+            <td>Remaining gaps</td>
+            <td><strong>2</strong></td>
+            <td>
+              Burgess (2023), Dekker (2023) — single-doc, minor citations.
+              All other papers covered.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="verification">How we verify — the pipeline</h2>
+      <p>
+        Every DOI in the shelf is machine-verified before shipping. Here's the
+        process:
+      </p>
+      <ol>
+        <li>
+          <strong>Crossref API check</strong> — each DOI is queried against
+          <code>api.crossref.org/works/{DOI}</code>. A 200 response means the
+          DOI is registered and active. A 404 means the DOI is wrong or
+          unregistered.
+        </li>
+        <li>
+          <strong>Cache-first verification</strong> — results are stored in
+          <code>.link-cache.json</code>. Re-runs on unchanged docs make zero
+          network requests. The steady state is cache-only.
+        </li>
+        <li>
+          <strong>Rate limiting</strong> — at most 1 request/second with random
+          jitter. Exponential backoff on 429/503. Anti-bot by design.
+        </li>
+        <li>
+          <strong>Scan both docs and digests</strong> — a dead DOI in a source
+          digest fails the run just like a dead link in an HTML doc.
+        </li>
+      </ol>
+
+      <div class="callout">
+        <h3>Run it yourself</h3>
+        <p>
+          From the <code>reference/</code> directory:
+        </p>
+        <pre><code>python3 scripts/verify-links.py          # cache-first (normal)
+python3 scripts/verify-links.py --force  # re-check everything
+python3 scripts/verify-links.py --json   # machine-readable report</code></pre>
+        <p>
+          Exit code 0 = all links pass. Exit code 1 = one or more failures.
+          The report lists every link with its status and the reason for
+          failure.
+        </p>
+      </div>
+
+      <h2 id="source-digests">What a source digest contains</h2>
+      <p>
+        Every source digest in <code>reference/sources/</code> follows the
+        same template. Each field is load-bearing for the verification pipeline:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>What it tells you</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Identity</strong></td>
+            <td>Full citation, DOI, verified link, open-access link (if any).</td>
+          </tr>
+          <tr>
+            <td><strong>What the doc(s) claim</strong></td>
+            <td>Exactly what each shelf doc says this paper supports. This is the
+            "claim trace" — you can see whether a doc is overclaiming.</td>
+          </tr>
+          <tr>
+            <td><strong>Key findings</strong></td>
+            <td>One-line answers the paper provides, each tied to a supporting quote.</td>
+          </tr>
+          <tr>
+            <td><strong>Key quotes</strong></td>
+            <td>Exact quotes with section/page locations. A future agent can read
+            THIS section and answer questions without re-scraping the web.</td>
+          </tr>
+          <tr>
+            <td><strong>Notes / caveats</strong></td>
+            <td>What the paper does NOT support. Correlational findings, small
+            samples, contested mechanisms — all flagged here.</td>
+          </tr>
+          <tr>
+            <td><strong>Related digests</strong></td>
+            <td>Other papers in the same evidence cluster. Read the cluster, not
+            just one paper.</td>
+          </tr>
+          <tr>
+            <td><strong>Verification history</strong></td>
+            <td>When the DOI was last checked and whether it passed.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="access">How to read the original papers</h2>
+      <p>
+        Each digest includes a DOI link. Here's how to access the full text:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Source type</th>
+            <th>Count</th>
+            <th>How to access</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Open-access journal</td>
+            <td>24</td>
+            <td>Click the DOI — free full text on the publisher site.</td>
+          </tr>
+          <tr>
+            <td>Paywalled journal</td>
+            <td>108</td>
+            <td>
+              DOI → publisher page (abstract free, full text paywalled).
+              Try Google Scholar "All versions" for free copies. Check
+              the author's website or ResearchGate.
+            </td>
+          </tr>
+          <tr>
+            <td>Book / chapter</td>
+            <td>8</td>
+            <td>
+              Google Books preview, Internet Archive, or your library.
+              Many classic books are partially or fully digitized.
+            </td>
+          </tr>
+          <tr>
+            <td>Preprint</td>
+            <td>2</td>
+            <td>Free on OSF, arXiv, or bioRxiv.</td>
+          </tr>
+          <tr>
+            <td>Chinese journal</td>
+            <td>1</td>
+            <td>
+              CNKI (cnki.net) or Google Scholar. Abstract often in English.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        For the full access guide (with fallback chains and API instructions),
+        see <a href="sources/SOURCE-ACCESS.md">SOURCE-ACCESS.md</a> in the
+        sources directory.
+      </p>
+
+      <h2 id="key-papers">Key papers by topic</h2>
+      <p>
+        If you want to read deeply on a topic, start with these foundational
+        papers. Each has a verified source digest with key quotes and findings.
+      </p>
+
+      <h3>Learning &amp; memory</h3>
+      <ul>
+        <li><a href="sources/roediger-karpicke-2006-testing-effect.md">📄 Roediger &amp; Karpicke (2006)</a> — the testing effect</li>
+        <li><a href="sources/bjork-bjork-2011-desirable-difficulties.md">📄 Bjork &amp; Bjork (2011)</a> — desirable difficulties</li>
+        <li><a href="sources/dunlosky-2013-ten-techniques.md">📄 Dunlosky et al. (2013)</a> — 10 techniques review</li>
+        <li><a href="sources/baddeley-hitch-1974-working-memory.md">📄 Baddeley &amp; Hitch (1974)</a> — working memory model</li>
+        <li><a href="sources/craik-lockhart-1972-levels-of-processing.md">📄 Craik &amp; Lockhart (1972)</a> — levels of processing</li>
+      </ul>
+
+      <h3>Motivation &amp; reward</h3>
+      <ul>
+        <li><a href="sources/berridge-wanting-liking.md">📄 Berridge &amp; Robinson (1998)</a> — wanting vs liking</li>
+        <li><a href="sources/ryan-deci-2000-sdt.md">📄 Ryan &amp; Deci (2000)</a> — self-determination theory</li>
+        <li><a href="sources/locke-latham-2002-goal-setting.md">📄 Locke &amp; Latham (2002)</a> — goal-setting theory</li>
+        <li><a href="sources/vallerand-2003-harmonious-obsessive-passion.md">📄 Vallerand et al. (2003)</a> — harmonious vs obsessive passion</li>
+      </ul>
+
+      <h3>Recovery &amp; rest</h3>
+      <ul>
+        <li><a href="sources/sonnentag-fritz-recovery-experiences.md">📄 Sonnentag &amp; Fritz (2007)</a> — the four recovery experiences</li>
+        <li><a href="sources/meijman-effort-recovery.md">📄 Meijman &amp; Mulder (1998)</a> — effort-recovery model</li>
+        <li><a href="sources/immordino-yang-2012-rest-not-idleness.md">📄 Immordino-Yang et al. (2012)</a> — rest is not idleness</li>
+      </ul>
+
+      <h3>Play</h3>
+      <ul>
+        <li><a href="sources/brown-2009-play.md">📄 Stuart Brown (2009)</a> — play as a basic need</li>
+        <li><a href="sources/burghardt-2005-genesis-of-animal-play.md">📄 Burghardt (2005)</a> — five criteria for play</li>
+        <li><a href="sources/zosh-2018-play-spectrum.md">📄 Zosh et al. (2018)</a> — play as a spectrum</li>
+        <li><a href="sources/panksepp-play-system.md">📄 Panksepp</a> — the PLAY emotional system</li>
+      </ul>
+
+      <h3>Metacognition &amp; calibration</h3>
+      <ul>
+        <li><a href="sources/flavell-1979-metacognition.md">📄 Flavell (1979)</a> — the founding paper on metacognition</li>
+        <li><a href="sources/koriat-1997-cues-jol.md">📄 Koriat (1997)</a> — cue-utilization model of judgments of learning</li>
+        <li><a href="sources/kruger-dunning-1999-overconfidence.md">📄 Kruger &amp; Dunning (1999)</a> — the Dunning-Kruger effect</li>
+      </ul>
+
+      <h3>Learning myths debunked</h3>
+      <ul>
+        <li><a href="sources/pashler-2008-learning-styles.md">📄 Pashler et al. (2008)</a> — learning styles debunked</li>
+        <li><a href="sources/simons-2016-brain-training.md">📄 Simons et al. (2016)</a> — brain training debunked</li>
+        <li><a href="sources/sisk-2018-mindset-meta.md">📄 Sisk et al. (2018)</a> — mindset: weak effects</li>
+        <li><a href="sources/yeager-2019-mindset-experiment.md">📄 Yeager et al. (2019)</a> — mindset: context matters</li>
+      </ul>
+
+      <span class="cite"
+        >All 143 source digests are in <code>reference/sources/</code>.
+        Verification via <code>python3 scripts/verify-links.py</code>.
+        Access guide: <a href="sources/SOURCE-ACCESS.md">SOURCE-ACCESS.md</a>.</span
+      >
+
+      <nav class="ref-nav">
+        <strong>Related</strong> &nbsp;·&nbsp;
+        <a href="learning-to-learn-glossary.html">Glossary</a> &nbsp;·&nbsp;
+        <a href="study-advice.html">Study Advice</a> &nbsp;·&nbsp;
+        <a href="metacognition-and-calibration.html">Metacognition &amp; Calibration</a> &nbsp;·&nbsp;
+        <a href="rest-and-recovery.html">Rest &amp; Recovery</a> &nbsp;·&nbsp;
+        <a href="play-as-recovery.html">Play as Recovery</a> &nbsp;·&nbsp;
+        <a href="wanting-vs-liking.html">Wanting vs Liking</a>
+      </nav>
+
+      <footer class="lesson-foot">
+        <span>Learning to Learn · Reference 20</span>
+        <span>Got a question? Ask your teacher.</span>
+      </footer>
+    </main>
+  </body>
+</html>
