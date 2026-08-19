@@ -50,7 +50,9 @@ Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
 <span class="cite">Source lines, one per evidence cluster</span>
 
 <nav class="ref-nav">
-<strong>Related</strong> &nbsp;·&nbsp; <a href="...">Doc</a> (optional note) &nbsp;·&nbsp; ...
+<strong>Close</strong> &nbsp;·&nbsp; <a href="...">Doc</a> &nbsp;·&nbsp; ...
+<strong>Also</strong> &nbsp;·&nbsp; <a href="...">Doc</a> &nbsp;·&nbsp; ...
+<a href="prev.html">← Prev</a> &nbsp;·&nbsp; <a href="next.html">Next →</a> &nbsp;·&nbsp; <a href="learning-to-learn-glossary.html">Glossary</a> &nbsp;·&nbsp; <a href="evidence-base.html">Evidence Base</a>
 </nav>
 
 <footer class="lesson-foot">
@@ -161,6 +163,24 @@ Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
 - **Language discipline:** use "internally consistent" for a shelf whose
   internal checks pass; reserve "complete" for a shelf whose coverage map is
   green. Verification of what exists cannot see absence.
+
+## Navigation convention
+
+Every doc has a `<nav class="ref-nav">` block before the footer:
+
+- **EN docs:** Two tiers — `Close` (1-hop neighbors) and `Also` (related but
+  distant). Plus `← Prev / Next →` reading-order links (matching the index
+  order), `Glossary`, and `Evidence Base` (for source-heavy docs).
+- **AR twins:** Same tiered structure (`ذوي الصلة` / `أيضًا`) with `←`
+  arrows. A `📖 English` lang-switch link at the bottom points back to the
+  EN original. Links use `./` for AR twins, `../` for EN-only docs.
+- **Glossary:** Clustered into 4 groups (Learning & Memory, Execution & Focus,
+  Recovery & Motivation, Meta & Tools).
+- **Index:** `Start here` · Learning System · Glossary · Evidence Base.
+
+The neighbor map and reading order are defined in `scripts/upgrade-nav.py`.
+To add a new doc, update `ORDER`, `NAMES`, `NEIGHBORS`, and `SOURCE_HEAVY`
+in that script, then re-run it.
 
 ## Verification
 
