@@ -1378,5 +1378,85 @@
     "users": [
       "sources/wagner-2021-mnemonic-training.md"
     ]
+  },
+  "https://doi.org/10.1037/0278-7393.19.2.369": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/jones-macken-1993-irrelevant-sound.md"
+    ]
+  },
+  "https://doi.org/10.1038/s41586-019-1466-y": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/yeager-2019-mindset-experiment.md"
+    ]
+  },
+  "https://doi.org/10.1111/j.1539-6053.2009.01038.x": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/pashler-2008-learning-styles.md"
+    ]
+  },
+  "https://doi.org/10.1177/0956797617739704": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/sisk-2018-mindset-meta.md"
+    ]
+  },
+  "https://doi.org/10.3389/feduc.2021.581216": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/donoghue-hattie-2021-ten-techniques.md"
+    ]
+  },
+  "https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2009.01038.x": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/pashler-2008-learning-styles.md"
+    ]
+  },
+  "https://journals.sagepub.com/doi/full/10.1177/0956797617739704": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/sisk-2018-mindset-meta.md"
+    ]
+  },
+  "https://journals.sagepub.com/doi/full/10.1177/1529100616661983": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/simons-2016-brain-training.md"
+    ]
+  },
+  "https://www.frontiersin.org/articles/10.3389/feduc.2021.581216/full": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/donoghue-hattie-2021-ten-techniques.md"
+    ]
+  },
+  "https://www.nature.com/articles/s41586-019-1466-y": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-19T14:04:13.885324+00:00",
+    "users": [
+      "sources/yeager-2019-mindset-experiment.md"
+    ]
   }
 }
