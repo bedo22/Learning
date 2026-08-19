@@ -119,6 +119,10 @@ Both doctype styles occur in the shelf today (`<!DOCTYPE html>` in older docs,
 - **Reuse, don't re-digest.** When a doc cites a paper that already has a
   digest, update the digest's "what the doc claims" list — never create a
   second digest for the same paper.
+- **Accessing papers:** `sources/SOURCE-ACCESS.md` has the fallback chain
+  (DOI → Crossref → Semantic Scholar → open-access repos → Internet Archive)
+  and per-source-type access methods. Agents researching new claims should
+  consult it before attempting raw web searches.
 
 ## The Arabic twins
 

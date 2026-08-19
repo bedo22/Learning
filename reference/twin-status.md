@@ -31,6 +31,7 @@ Legend: **✅ synced** (all gates green) · **🟡 stale** (EN changed since las
 | 17 | `wanting-vs-liking.html` | `ar/wanting-vs-liking.html` | ✅ synced |
 | 18 | `planning-and-execution.html` | `ar/planning-and-execution.html` | ✅ synced |
 | 19 | `focus-and-attention.html` | `ar/focus-and-attention.html` | ✅ synced |
+| 20 | `evidence-base.html` | — | — none (meta doc) |
 | — | `learning-to-learn-glossary.html` | `ar/learning-to-learn-glossary.html` | ✅ synced |
 
 **To create a new twin:** follow the translate-to-arabic skill (TRANSLATE mode);

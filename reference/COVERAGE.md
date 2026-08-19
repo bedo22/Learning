@@ -37,7 +37,7 @@ Glossary; **THIN** when it has Doc but no Lesson (or only passing mention);
 | 9 | **Set direction** | Know the "why & who": goals, meta-goals | reverse-goal-setting | 0025 | ✅ | — | ✅ COVERED (lesson 0025 added 2026-08-13) |
 | 10 | **Guard against myths** | Spot false learning beliefs: myths, AI misuse | learning-myths, ai-and-learning | 0022 | ✅ | learning-myths | ✅ COVERED (twins added 2026-08-13) |
 | 11 | **Use tools (AI)** | Use AI without fluency theft | ai-and-learning | 0021 | ✅ | ai-and-learning | ✅ COVERED (twin added 2026-08-13) |
-| 12 | **Meta** | Navigate the system: glossary, index, conventions | glossary, index | — | — | glossary | ✅ COVERED |
+| 12 | **Meta** | Navigate the system: glossary, index, conventions, evidence base | glossary, index, evidence-base, sources/SOURCE-ACCESS.md | — | — | glossary | ✅ COVERED |
 
 ## What "complete" means — the operational definition
 
