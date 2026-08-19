@@ -1458,5 +1458,221 @@
     "users": [
       "sources/yeager-2019-mindset-experiment.md"
     ]
+  },
+  "https://doi.org/10.1007/s10648-022-09688-0": {
+    "ok": false,
+    "detail": "crossref 404 — DOI not registered: 10.1007/s10648-022-09688-0",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/voyer-2022-longhand-meta.md"
+    ]
+  },
+  "https://doi.org/10.1007/s10648-024-09802-z": {
+    "ok": false,
+    "detail": "crossref 404 — DOI not registered: 10.1007/s10648-024-09802-z",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/flanigan-2024-longhand-meta.md"
+    ]
+  },
+  "https://doi.org/10.1016/S0079-7421(08)60053-5": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/nelson-narens-1990-metacognition.md"
+    ]
+  },
+  "https://doi.org/10.1037/0022-3514.77.6.1121": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/kruger-dunning-1999-overconfidence.md"
+    ]
+  },
+  "https://doi.org/10.1037/0033-295X.104.3.349": {
+    "ok": false,
+    "detail": "crossref 404 — DOI not registered: 10.1037/0033-295X.104.3.349",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/koriat-1997-cues-jol.md"
+    ]
+  },
+  "https://doi.org/10.1037/edu0000009": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/dedrick-stershic-2015-interleaving.md"
+    ]
+  },
+  "https://doi.org/10.1037/xlm0001266": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/marsh-2024-irrelevant-speech.md"
+    ]
+  },
+  "https://doi.org/10.1111/j.1365-2923.2012.04273.x": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/rohrer-pashler-2012-learning-styles.md"
+    ]
+  },
+  "https://doi.org/10.1177/0956797614524581": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/mueller-oppenheimer-2014-laptop-longhand.md"
+    ]
+  },
+  "https://doi.org/10.1177/0956797620961222": {
+    "ok": false,
+    "detail": "crossref 404 — DOI not registered: 10.1177/0956797620961222",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/urry-2021-longhand-replication.md"
+    ]
+  },
+  "https://doi.org/10.1207/s15430421tip4102_2": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/zimmerman-2002-self-regulated-learning.md"
+    ]
+  },
+  "https://doi.org/10.1207/s15516709cog2605_1": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/rozenblit-keil-2002-illusion-explanatory-depth.md"
+    ]
+  },
+  "https://doi.org/10.3102/0034654316689306": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/adesope-2017-practice-testing-meta.md"
+    ]
+  },
+  "https://doi.org/10.3389/fpsyg.2014.00751": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/hambrick-2014-deliberate-practice-critique.md"
+    ]
+  },
+  "https://doi.org/10.3389/fpsyg.2023.1258359": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/mayrhofer-2023-retrieval-artifact.md"
+    ]
+  },
+  "https://doi.org/10.3390/jintelligence12100114": {
+    "ok": false,
+    "detail": "crossref 404 — DOI not registered: 10.3390/jintelligence12100114",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/syed-2024-wm-training-meta.md"
+    ]
+  },
+  "https://doi.org/10.7554/eLife.93457": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/soni-frank-2025-chunking.md"
+    ]
+  },
+  "https://elifesciences.org/articles/93457": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/soni-frank-2025-chunking.md"
+    ]
+  },
+  "https://journals.sagepub.com/doi/full/10.3102/0034654316689306": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/adesope-2017-practice-testing-meta.md"
+    ]
+  },
+  "https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00751/full": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/hambrick-2014-deliberate-practice-critique.md"
+    ]
+  },
+  "https://www.frontiersin.org/articles/10.3389/fpsyg.2023.1258359/full": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/mayrhofer-2023-retrieval-artifact.md"
+    ]
+  },
+  "https://www.mdpi.com/2079-9292/12/10/114": {
+    "ok": true,
+    "detail": "http 403",
+    "ts": "2026-08-19T14:16:54.963633+00:00",
+    "users": [
+      "sources/syed-2024-wm-training-meta.md"
+    ]
+  },
+  "https://doi.org/10.31234/osf.io/vqyw6": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:19:44.390574+00:00",
+    "users": [
+      "sources/urry-2021-longhand-replication.md"
+    ]
+  },
+  "https://doi.org/10.3390/jintelligence12110114": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:19:44.390574+00:00",
+    "users": [
+      "sources/syed-2024-wm-training-meta.md"
+    ]
+  },
+  "https://doi.org/10.7554/elife.97894": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:19:44.390574+00:00",
+    "users": [
+      "sources/soni-frank-2025-chunking.md"
+    ]
+  },
+  "https://kns.cnki.net/kcms2/article/abstract?v=vWOo4I-93gqS04_Z05w0QgWf4J4EoB-z6c2F8kF6F0F0Z8kF6F0": {
+    "ok": false,
+    "detail": "http 0",
+    "ts": "2026-08-19T14:19:44.390574+00:00",
+    "users": [
+      "sources/zhang-li-2026-irrelevant-speech-meta.md"
+    ]
+  },
+  "https://doi.org/10.1037/0096-3445.126.4.349": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-19T14:20:31.249537+00:00",
+    "users": [
+      "sources/koriat-1997-cues-jol.md"
+    ]
   }
 }
