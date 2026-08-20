@@ -1891,5 +1891,13 @@
     "users": [
       "ar/skill-acquisition.html"
     ]
+  },
+  "https://doi.org/10.1037/0033-2909.133.1.65": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T22:12:20.854751+00:00",
+    "users": [
+      "sources/steel-2007-procrastination-meta.md"
+    ]
   }
 }
