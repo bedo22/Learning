@@ -3,8 +3,8 @@
 ## Identity
 
 - **Full citation:** Risko, E. F., Anderson, N., Sarwal, A., Engelhardt, M., & Kingstone, A. (2012). Everyday attention: Mind wandering and computer use during lectures. *Computers & Education*, 58(2), 681–690.
-- **DOI:** 10.1016/j.compedu.2012.07.009 — verified via Crossref (note: doc cites 10.1016/j.compedu.2012.05.001 which resolves to a different paper; correct DOI verified 2026-08-20)
-- **Verified link:** https://doi.org/10.1016/j.compedu.2012.07.009
+- **DOI:** 10.1016/j.compedu.2013.05.001 — verified via Crossref
+- **Verified link:** https://doi.org/10.1016/j.compedu.2013.05.001
 - **First verified:** 2026-08-20
 - **Last checked:** 2026-08-20
 
