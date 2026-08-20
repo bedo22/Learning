@@ -30,6 +30,7 @@ RATIO_EXCEPTIONS = {                # canonical-measure density judgments (FLAG,
     'skill-acquisition':                 0.73,
     'study-advice':                      0.74,
     'wanting-vs-liking':                 0.72,
+    'planning-and-execution':            0.73,
     'problem-solving':                  0.70,   # just under band; audited 2026-08-11 — 0 outliers
     'nextjs-deep-dive':                 0.72,   # v38: code-token-dense EN (JSX/code spans inflate EN length);
                                                 # audited 2026-08-11 — 0 outliers
