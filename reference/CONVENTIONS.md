@@ -194,3 +194,10 @@ Links can be verified by grepping the href set against the file list.
   documents, not the shelf).
 - `Archive/repo-deep-analysis.md` is the standing audit; roadmap items
   eventually land here as conventions.
+
+## Arabic twins & citations (2026-08-19)
+AR twins do NOT duplicate citation blocks. Citations are untranslatable Latin
+strings; each AR twin carries a single pointer line linking to the EN doc's
+citation section instead. The resulting text-ratio drop is recorded per doc in
+`RATIO_EXCEPTIONS` inside `scripts/verify-twins.py` (flag, not fail). New twins
+should follow this policy from the start.

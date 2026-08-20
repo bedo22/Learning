@@ -20,6 +20,16 @@ RATIO_EXCEPTIONS = {                # canonical-measure density judgments (FLAG,
     'how-developers-think-frontend':    1.17,   # verbose twin style; audited 2026-08-11 — 0 outliers
     'cs-and-software-engineering':      0.98,   # AR grew with v10 factual fixes; audited 2026-08-11 — 0 outliers
     'glossary':                         0.99,   # term-list density; audited 2026-08-11 — 0 outliers
+    # 2026-08-19: AR cite sections replaced by a pointer to the EN doc's citations
+    # (citations are untranslatable Latin strings; duplicating them was maintenance
+    # burden). Ratio drop = removed duplication, audited per doc:
+    'focus-and-attention':               0.69,
+    'learning-myths':                    0.73,
+    'memory-techniques':                 0.67,
+    'motivation-and-self-determination': 0.68,
+    'skill-acquisition':                 0.73,
+    'study-advice':                      0.74,
+    'wanting-vs-liking':                 0.72,
     'problem-solving':                  0.70,   # just under band; audited 2026-08-11 — 0 outliers
     'nextjs-deep-dive':                 0.72,   # v38: code-token-dense EN (JSX/code spans inflate EN length);
                                                 # audited 2026-08-11 — 0 outliers
