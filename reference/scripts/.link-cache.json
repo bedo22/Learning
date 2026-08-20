@@ -1931,5 +1931,14 @@
     "users": [
       "sources/kahneman-tversky-1979-intuitive-prediction.md"
     ]
+  },
+  "https://doi.org/10.1152/physrev.00054.2024": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T22:47:26.082052+00:00",
+    "users": [
+      "rest-and-recovery.html",
+      "sources/lutz-harkotte-born-2026-sleep-memory.md"
+    ]
   }
 }

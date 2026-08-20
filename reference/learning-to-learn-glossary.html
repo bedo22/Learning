@@ -19,6 +19,30 @@
 <p>This glossary grows as we process more transcripts. Terms here are canonical: use them consistently everywhere. If a later transcript refines a term, we update it here and note the change.</p>
 
 <nav class="toc"><p><strong>Browse by topic</strong></p><ul><li><a href="#g-blooms">Bloom's six levels of thinking (01)</a></li><li><a href="#g-learning-system">The learning system — encoding &amp; retrieval (03)</a></li><li><a href="#g-orders">Orders of learning (04)</a></li><li><a href="#g-myths">Learning myths (02)</a></li><li><a href="#g-self-management">Self-management (05)</a></li><li><a href="#g-memory">Memory handling (06)</a></li><li><a href="#g-study-advice">Study advice (07)</a></li><li><a href="#g-rest">Rest &amp; recovery (08)</a></li><li><a href="#g-productivity">Productivity systems (09)</a></li><li><a href="#g-reverse-goals">Reverse goal setting (10)</a></li><li><a href="#g-skills">Skill acquisition (11)</a></li><li><a href="#g-wanting-liking">Wanting vs liking &amp; play (12 · 17)</a></li><li><a href="#g-meta-mot">Metacognition, motivation &amp; self-regulation (13 · 14 · 16)</a></li><li><a href="#g-planning">Planning, attention &amp; mind-wandering (18 · 19)</a></li></ul></nav>
+<div style="margin:1rem 0">
+  <input id="gfilter" type="search" placeholder="Filter terms…" aria-label="Filter glossary terms" style="width:min(420px,90%);padding:.45rem .7rem;font:inherit;border:1px solid var(--rule);border-radius:6px;background:var(--paper);color:var(--ink)">
+</div>
+<script>
+(function(){
+  var i=document.getElementById('gfilter'); if(!i) return;
+  var dts=[].slice.call(document.querySelectorAll('dl.ref dt'));
+  i.addEventListener('input',function(){
+    var q=i.value.trim().toLowerCase();
+    dts.forEach(function(dt){
+      var dd=dt.nextElementSibling, grp=dt.parentElement;
+      var hit=!q||dt.textContent.toLowerCase().indexOf(q)>-1||(dd&&dd.textContent.toLowerCase().indexOf(q)>-1);
+      dt.style.display=hit?'':'none'; if(dd) dd.style.display=hit?'':'none';
+    });
+    // hide empty group headers
+    [].slice.call(document.querySelectorAll('h2[id^="g-"]')).forEach(function(h){
+      var el=h.nextElementSibling, vis=0;
+      while(el&&!(el.tagName==='H2')){ if(el.tagName==='DT'&&el.style.display!=='none')vis++; el=el.nextElementSibling; }
+      h.style.display=vis?'':'none';
+    });
+  });
+})();
+</script>
+
 
 <dl class="ref">
 <h2 id="g-blooms">Bloom's six levels of thinking (01)</h2>

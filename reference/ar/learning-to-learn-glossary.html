@@ -18,6 +18,30 @@
 <p>ينمو هذا المعجم كلما عالجنا نصوصًا جديدة. المصطلحات هنا قياسية: استخدمها باستمرار في كل مكان. إذا صقلت نص لاحق مصطلحًا، نحدّثه هنا ونسجّل التغيير.</p>
 
 <nav class="toc"><p><strong>تصفح حسب الموضوع</strong></p><ul><li><a href="#g-blooms">مستويات بلوم الستة للتفكير (٠١)</a></li><li><a href="#g-learning-system">نظام التعلم — الترميز والاسترجاع (٠٣)</a></li><li><a href="#g-orders">رتب التعلم (٠٤)</a></li><li><a href="#g-myths">أساطير التعلم (٠٢)</a></li><li><a href="#g-self-management">إدارة الذات (٠٥)</a></li><li><a href="#g-memory">التعامل مع الذاكرة (٠٦)</a></li><li><a href="#g-study-advice">نصائح الدراسة (٠٧)</a></li><li><a href="#g-rest">الراحة والتعافي (٠٨)</a></li><li><a href="#g-productivity">أنظمة الإنتاجية (٠٩)</a></li><li><a href="#g-reverse-goals">الإدارة العكسية للأهداف (١٠)</a></li><li><a href="#g-skills">اكتساب المهارات (١١)</a></li><li><a href="#g-wanting-liking">الرغبة مقابل الاستمتاع واللعب (١٢ · ١٧)</a></li><li><a href="#g-meta-mot">ما وراء المعرفة والدافعية والتنظيم الذاتي (١٣ · ١٤ · ١٦)</a></li><li><a href="#g-planning">التخطيط والانتباه وتجوال العقل (١٨ · ١٩)</a></li></ul></nav>
+<div style="margin:1rem 0">
+  <input id="gfilter" type="search" placeholder="تصفية المصطلحات…" aria-label="تصفية مصطلحات المسرد" style="width:min(420px,90%);padding:.45rem .7rem;font:inherit;border:1px solid var(--rule);border-radius:6px;background:var(--paper);color:var(--ink)">
+</div>
+<script>
+(function(){
+  var i=document.getElementById('gfilter'); if(!i) return;
+  var dts=[].slice.call(document.querySelectorAll('dl.ref dt'));
+  i.addEventListener('input',function(){
+    var q=i.value.trim().toLowerCase();
+    dts.forEach(function(dt){
+      var dd=dt.nextElementSibling, grp=dt.parentElement;
+      var hit=!q||dt.textContent.toLowerCase().indexOf(q)>-1||(dd&&dd.textContent.toLowerCase().indexOf(q)>-1);
+      dt.style.display=hit?'':'none'; if(dd) dd.style.display=hit?'':'none';
+    });
+    // hide empty group headers
+    [].slice.call(document.querySelectorAll('h2[id^="g-"]')).forEach(function(h){
+      var el=h.nextElementSibling, vis=0;
+      while(el&&!(el.tagName==='H2')){ if(el.tagName==='DT'&&el.style.display!=='none')vis++; el=el.nextElementSibling; }
+      h.style.display=vis?'':'none';
+    });
+  });
+})();
+</script>
+
 
 <dl class="ref">
 <h2 id="g-blooms">مستويات بلوم الستة للتفكير (٠١)</h2>
