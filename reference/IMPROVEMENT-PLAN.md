@@ -56,7 +56,9 @@ write digest from _TEMPLATE.md → link via link-sources.py → cite in doc.
 Order (thinnest evidence first): self-management, planning-and-execution, ai-and-learning
 (Gerlich 2025 digest missing), skill-acquisition, reverse-goal-setting, productivity-systems,
 note-taking (Kiewra 1985), blooms, learning-system, glossary claims.
-- [x] P6.1 self-management — Steel 2007 digest created (DOI verified live), linked EN+AR   - [ ] P6.2 planning-and-execution   - [x] P6.3 ai-and-learning — Gerlich 2025 digest created (DOI verified live), linked EN+AR
+- [x] P6.1 self-management — Steel 2007 digest created (DOI verified live), linked EN+AR   - [ ] P6.2 planning-and-execution   - [x] P6.3b planning-and-execution audited (only Kahneman & Tversky 1979 chapter unbacked — Tier-4 follow-up)
+- [x] P6.3c skill-acquisition: Hattie & Timperley 2007 digest created (fixed broken AR link); note-taking: Chi & Wylie 2014 ICAP digest created
+- [x] P6.3 ai-and-learning — Gerlich 2025 digest created (DOI verified live), linked EN+AR
 - [ ] P6.4 skill-acquisition - [ ] P6.5 reverse-goal-setting    - [ ] P6.6 productivity-systems
 - [ ] P6.7 note-taking       - [ ] P6.8 blooms                  - [ ] P6.9 learning-system
 
