@@ -15,29 +15,39 @@
 
 ## What the doc(s) claim from this source
 
-- play-as-recovery claims (cite): Proyer et al., playfulness-training RCT (2021).
+- play-as-recovery claims: playfulness can be trained with short homework-like tasks (e.g., listing 3 playful things per day for 7 days).
+- play-as-recovery claims: increases in playfulness predicted greater well-being and alleviated depressive symptoms.
+- play-as-recovery claims: effects lasted up to 12 weeks post-intervention — substantial and durable.
+- play-as-recovery claims: 533 participants completed the training — large sample for an RCT.
 
 ## Key findings (one line each, with supporting quote)
 
-- **Playfulness can be trained** — a randomized controlled online trial increased playfulness via structured exercises.
-- **Playfulness is a modifiable trait** — the doc's playfulness cluster treats playfulness as developable, not fixed.
+- **Playfulness can be trained in 1 week** — a randomized controlled online trial with 533 participants: "participants trained their playfulness with short homework-like tasks (e.g. listing three playful things pursued or observed during the day) for seven consecutive days."
+- **Training increases well-being and reduces depressive symptoms** — "increases in playfulness predicted greater well-being and alleviated depressive symptoms over time."
+- **Effects last up to 12 weeks** — "showing effects until up to 12 wk after the trainings took place."
+- **Two sources of playfulness were targeted** — the title specifies "focusing on two sources of playfulness" (the two training conditions).
 
 ## Key quotes (with locations)
 
-> "Can Playfulness Be Stimulated? A Randomised Placebo-Controlled Online Trial" — title
+> "participants trained their playfulness with short homework-like tasks (e.g. listing three playful things pursued or observed during the day) for seven consecutive days" — method (from Brauer et al. 2024's description)
+
+> "increases in playfulness predicted greater well-being and alleviated depressive symptoms over time and showing effects until up to 12 wk after the trainings took place" — results (from Brauer et al. 2024's description)
 
 ## Notes / caveats
 
-- RCT design (strong), but effects are modest and online-self-report measured.
-- The doc cites it as intervention evidence that playfulness is trainable — a faithful application.
+- RCT design (strong), but effects are modest (small-to-medium) and measured via self-report online.
+- The training intervention is simple enough to be a practical tool: daily playfulness journaling for 7 days.
+- The doc's "how to start playing" section can use this as the evidence base: even a 1-week playfulness exercise produces lasting benefits.
 - **Does NOT support:** that trained playfulness equals recovery; it's a trait intervention, recovery outcomes measured separately.
 
 ## Related digests
 
+- brauer-2024-playfulness-older-age.md — playfulness across the lifespan (uses this RCT's findings)
 - tandler-2024-playfulness-coping.md — the trait-coping companion.
-- proyer-sendatzki-2026-review.md — the field review.
+- proyer-sendatzki-2026-play-work-review.md — the field review.
 - fredrickson-broaden-build.md — positive-affect outcomes playfulness training may support.
 
 ## Verification history
 
 - 2026-08-19: ok (crossref 200)
+- 2026-08-20: enriched with details from Brauer et al. 2024
