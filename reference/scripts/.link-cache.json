@@ -1674,5 +1674,166 @@
     "users": [
       "sources/koriat-1997-cues-jol.md"
     ]
+  },
+  "https://api.crossref.org/works/{DOI}\"": {
+    "ok": false,
+    "detail": "http 404",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://api.crossref.org/works/{DOI}`": {
+    "ok": false,
+    "detail": "http 404",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://api.semanticscholar.org/graph/v1/paper/search?query={title}&limit=3&fields=title,authors,year,externalIds\"": {
+    "ok": false,
+    "detail": "http 400",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://archive.org": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://arxiv.org": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://doi.org/10.1007/978-3-031-13975-8_1": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "play-as-recovery.html",
+      "sources/whitton-2022-introducing-adult-play.md"
+    ]
+  },
+  "https://doi.org/10.1016/j.compedu.2013.05.001": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "focus-and-attention.html",
+      "ar/focus-and-attention.html",
+      "sources/risko-2013-mind-wandering-lectures.md"
+    ]
+  },
+  "https://doi.org/10.1016/j.concog.2010.03.014": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "focus-and-attention.html",
+      "ar/focus-and-attention.html",
+      "sources/zeidan-2010-mindfulness-cognition.md"
+    ]
+  },
+  "https://doi.org/10.1016/j.obhdp.2009.04.002": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "focus-and-attention.html",
+      "ar/focus-and-attention.html",
+      "sources/leroy-2009-attention-residue.md"
+    ]
+  },
+  "https://doi.org/10.1080/13607863.2024.2372471": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "play-as-recovery.html",
+      "sources/brauer-2024-playfulness-older-age.md"
+    ]
+  },
+  "https://doi.org/10.5920/jpa.1258": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "play-as-recovery.html",
+      "sources/lubbers-2023-adult-play-qualitative.md"
+    ]
+  },
+  "https://doi.org/{DOI}": {
+    "ok": false,
+    "detail": "crossref 404 — DOI not registered: {DOI}",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://osf.io": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://semanticscholar.org": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://web.archive.org": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://www.biorxiv.org": {
+    "ok": false,
+    "detail": "http 429",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
+  },
+  "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.03087/full": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/wisniewski-zierer-hattie-2020-feedback-meta.md"
+    ]
+  },
+  "https://www.journalofplayinadulthood.org.uk/article/id/1258/": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/lubbers-2023-adult-play-qualitative.md"
+    ]
+  },
+  "https://www.ncbi.nlm.nih.gov/pmc/": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T20:51:27.671531+00:00",
+    "users": [
+      "sources/SOURCE-ACCESS.md"
+    ]
   }
 }

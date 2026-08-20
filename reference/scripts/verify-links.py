@@ -142,10 +142,14 @@ class MarkdownLinkExtractor:
 
 def extract_links(path: Path) -> set:
     if path.suffix == ".md":
-        return MarkdownLinkExtractor().extract(path)
-    parser = LinkExtractor()
-    parser.feed(path.read_text(encoding="utf-8"))
-    return parser.links
+        links = MarkdownLinkExtractor().extract(path)
+    else:
+        parser = LinkExtractor()
+        parser.feed(path.read_text(encoding="utf-8"))
+        links = parser.links
+    # skip template/example placeholders (e.g. https://api.crossref.org/works/{DOI}
+    # in SOURCE-ACCESS.md) — they are documentation, not real links to check.
+    return {l for l in links if "{" not in l and "}" not in l}
 
 
 # ---------------------------------------------------------------------------
