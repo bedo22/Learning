@@ -23,8 +23,13 @@ def scan(path):
         links = re.findall(r'href="(?:\.\./)?sources/([^"#]+\.md)"', s)
         # split into cited segments on the separator
         segs = [x.strip() for x in re.split(r"&nbsp;·&nbsp;|·", txt) if x.strip()]
+        # video-course / Wikipedia reference blocks are non-paper citations
+        # by shelf design (CONVENTIONS.md) — they are never digest targets.
+        has_paper_claims = bool(re.search(r"doi|\d{2}:\d{2}–\d{3}|Journal|Psychologist|Review", s)) and "youtube.com" not in s
+        covered = bool(links) or not has_paper_claims
         rows.append({"segments": len(segs), "digest_links": links,
-                     "covered": bool(links)})
+                     "covered": covered,
+                     "non_paper": not has_paper_claims})
     return rows
 
 def main():
