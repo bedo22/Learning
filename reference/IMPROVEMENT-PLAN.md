@@ -32,8 +32,8 @@ skill-acquisition → reverse-goal-setting → evidence-base
 - [x] P3.1 metacognition-and-calibration AR twin
 - [ ] P3.2 motivation-and-self-determination AR twin
 - [ ] P3.3 note-taking AR twin
-- [ ] P3.4 orders-of-learning AR twin
-- [ ] P3.5 blooms-six-levels-of-thinking AR twin
+- [x] P3.4 orders-of-learning AR twin
+- [x] P3.5 blooms-six-levels-of-thinking AR twin
 - [ ] P3.6 skill-acquisition AR twin
 - [ ] P3.7 reverse-goal-setting AR twin
 - [ ] P3.8 evidence-base AR twin
