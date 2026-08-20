@@ -34,7 +34,7 @@ skill-acquisition → reverse-goal-setting → evidence-base
 - [x] P3.3 note-taking AR twin
 - [x] P3.4 orders-of-learning AR twin
 - [x] P3.5 blooms-six-levels-of-thinking AR twin
-- [ ] P3.6 skill-acquisition AR twin
+- [x] P3.6 skill-acquisition AR twin
 - [ ] P3.7 reverse-goal-setting AR twin
 - [ ] P3.8 evidence-base AR twin
 - [ ] P3.9 add inline lang-switch to all 8 + index entries + verify-twins + commit
