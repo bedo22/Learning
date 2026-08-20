@@ -31,7 +31,7 @@ Order: metacognition → motivation → note-taking → orders-of-learning → b
 skill-acquisition → reverse-goal-setting → evidence-base
 - [x] P3.1 metacognition-and-calibration AR twin
 - [ ] P3.2 motivation-and-self-determination AR twin
-- [ ] P3.3 note-taking AR twin
+- [x] P3.3 note-taking AR twin
 - [x] P3.4 orders-of-learning AR twin
 - [x] P3.5 blooms-six-levels-of-thinking AR twin
 - [ ] P3.6 skill-acquisition AR twin
@@ -48,6 +48,17 @@ skill-acquisition → reverse-goal-setting → evidence-base
 - [ ] P4.6 glossary: add missing entries (interleaving, desirable difficulty, schema,
       prior knowledge, ICAP, region of proximal learning) (+AR)
 - [ ] P4.7 verify + commit
+
+## P6 — Source-material search plan (per doc, one by one)
+For each doc: audit its claims → list which lack a digest-backed source → search
+(Crossref/OpenAlex/EuropePMC) for the best paper per unbacked claim → verify DOI live →
+write digest from _TEMPLATE.md → link via link-sources.py → cite in doc.
+Order (thinnest evidence first): self-management, planning-and-execution, ai-and-learning
+(Gerlich 2025 digest missing), skill-acquisition, reverse-goal-setting, productivity-systems,
+note-taking (Kiewra 1985), blooms, learning-system, glossary claims.
+- [ ] P6.1 self-management   - [ ] P6.2 planning-and-execution   - [ ] P6.3 ai-and-learning
+- [ ] P6.4 skill-acquisition - [ ] P6.5 reverse-goal-setting    - [ ] P6.6 productivity-systems
+- [ ] P6.7 note-taking       - [ ] P6.8 blooms                  - [ ] P6.9 learning-system
 
 ## P5 — Design polish
 - [ ] P5.1 inline lang-switch consistent everywhere (auto-fixed by P3 for most)
