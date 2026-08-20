@@ -1923,5 +1923,13 @@
     "users": [
       "sources/hattie-timperley-2007-feedback.md"
     ]
+  },
+  "https://en.wikipedia.org/wiki/Planning_fallacy": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T22:26:36.457178+00:00",
+    "users": [
+      "sources/kahneman-tversky-1979-intuitive-prediction.md"
+    ]
   }
 }
