@@ -30,7 +30,7 @@ reverse-goal-setting. (* = needs AR twin sync too)
 Order: metacognition → motivation → note-taking → orders-of-learning → blooms →
 skill-acquisition → reverse-goal-setting → evidence-base
 - [x] P3.1 metacognition-and-calibration AR twin
-- [ ] P3.2 motivation-and-self-determination AR twin
+- [x] P3.2 motivation-and-self-determination AR twin
 - [x] P3.3 note-taking AR twin
 - [x] P3.4 orders-of-learning AR twin
 - [x] P3.5 blooms-six-levels-of-thinking AR twin
