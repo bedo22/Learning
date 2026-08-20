@@ -1875,5 +1875,13 @@
     "users": [
       "ar/skill-acquisition.html"
     ]
+  },
+  "https://doi.org/10.1016/S0022-5371(72)80006-9": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T22:09:40.815415+00:00",
+    "users": [
+      "sources/bransford-johnson-1972-context-prerequisites.md"
+    ]
   }
 }
