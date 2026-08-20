@@ -49,6 +49,11 @@ skill-acquisition → reverse-goal-setting → evidence-base
       prior knowledge, ICAP, region of proximal learning) (+AR)
 - [ ] P4.7 verify + commit
 
+## P6 tooling
+- [x] scripts/digest-coverage.py built: per-doc cite-block coverage, orphan-digest list,
+      exit code for CI use. First run found: 12 EN docs with uncovered cite blocks,
+      most AR twins missing Sources links, 38/159 digests never linked from any doc.
+
 ## P6 — Source-material search plan (per doc, one by one)
 For each doc: audit its claims → list which lack a digest-backed source → search
 (Crossref/OpenAlex/EuropePMC) for the best paper per unbacked claim → verify DOI live →
