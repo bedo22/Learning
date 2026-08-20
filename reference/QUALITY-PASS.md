@@ -11,6 +11,6 @@
 - [x] P-C RESOLVED: Lutz, Harkotte & Born (2026) Physiol Rev 106:363-483 is REAL — doi:10.1152/physrev.00054.2024 verified via Crossref; digest created; citing-note updated
 
 ## Path 3 · Honest growth
-- [ ] G1 Identify thinnest failure tables → pick targets
-- [ ] G2 Research + digest new sourced material per target
-- [ ] G3 Grow tables with non-redundant rows (+AR policy: pointer)
+- [x] G1: targets = rest-and-recovery (1 row), memory-techniques (1 row)
+- [x] G2: wittmann-2006-social-jetlag.md + depner-2019-weekend-recovery-sleep.md created (DOIs verified live); dunlosky-2013 reused
+- [x] G3: rest +1 row (weekend sleep-debt banking), memory +1 row (technique utility variance); twins pass, coverage OK
