@@ -1907,5 +1907,21 @@
     "users": [
       "sources/gerlich-2025-ai-offloading.md"
     ]
+  },
+  "https://doi.org/10.1080/00461520.2014.965823": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T22:16:27.949550+00:00",
+    "users": [
+      "sources/chi-wylie-2014-icap.md"
+    ]
+  },
+  "https://doi.org/10.3102/003465430298487": {
+    "ok": true,
+    "detail": "crossref 200",
+    "ts": "2026-08-20T22:16:27.949550+00:00",
+    "users": [
+      "sources/hattie-timperley-2007-feedback.md"
+    ]
   }
 }
