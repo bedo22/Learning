@@ -1883,5 +1883,13 @@
     "users": [
       "sources/bransford-johnson-1972-context-prerequisites.md"
     ]
+  },
+  "https://en.wikipedia.org/wiki/Procedural_memory": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T22:10:01.667494+00:00",
+    "users": [
+      "ar/skill-acquisition.html"
+    ]
   }
 }
