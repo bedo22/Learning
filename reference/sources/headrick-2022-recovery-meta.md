@@ -15,7 +15,7 @@
 
 ## What the doc(s) claim from this source
 
-- play-as-recovery claims: recovery-experiences mega-analysis (Headrick et al., 2024) — cited in the recovery-consolidation cluster (doc lists it as J. Business & Psychology, 2024; the article is online-2022/print-2023).
+- rest-and-recovery claims: recovery-experiences mega-analysis (Headrick et al., 2024) — cited in the recovery-consolidation cluster (doc lists it as J. Business & Psychology, 2024; the article is online-2022/print-2023).
 
 ## Key findings (one line each, with supporting quote)
 

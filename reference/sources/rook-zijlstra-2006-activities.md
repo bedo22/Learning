@@ -15,7 +15,7 @@
 
 ## What the doc(s) claim from this source
 
-- play-as-recovery claims: activity *type* matters for recovery — some low-effort leisure does little or nothing (Rook & Zijlstra, 2006) — the doc's "passive rest has mixed evidence" note.
+- rest-and-recovery claims: activity *type* matters for recovery — some low-effort leisure does little or nothing (Rook & Zijlstra, 2006) — the doc's "passive rest has mixed evidence" note.
 - rest-and-recovery claims: "Some studies find low-effort leisure does little or nothing for recovery (Rook & Zijlstra, 2006)."
 
 ## Key findings (one line each, with supporting quote)

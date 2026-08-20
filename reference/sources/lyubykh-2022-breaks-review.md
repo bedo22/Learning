@@ -15,7 +15,7 @@
 
 ## What the doc(s) claim from this source
 
-- play-as-recovery claims: work breaks & well-being systematic review (Lyubykh et al., 2022) — cited in the breaks cluster.
+- rest-and-recovery claims: work breaks & well-being systematic review (Lyubykh et al., 2022) — cited in the breaks cluster.
 
 ## Key findings (one line each, with supporting quote)
 

@@ -14,7 +14,7 @@
 
 ## What the doc(s) claim from this source
 
-- play-as-recovery claims: micro-breaks meta-analysis (Albulescu et al., 2022) — cited in the breaks cluster.
+- rest-and-recovery claims: micro-breaks meta-analysis (Albulescu et al., 2022) — cited in the breaks cluster.
 
 ## Key findings (one line each, with supporting quote)
 

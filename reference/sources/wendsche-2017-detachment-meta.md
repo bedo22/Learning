@@ -14,7 +14,7 @@
 
 ## What the doc(s) claim from this source
 
-- play-as-recovery claims: detachment meta-analysis (Wendsche & Lohmann-Haislah, 2017) — cited in the detachment evidence cluster.
+- rest-and-recovery claims: detachment meta-analysis (Wendsche & Lohmann-Haislah, 2017) — cited in the detachment evidence cluster.
 
 ## Key findings (one line each, with supporting quote)
 
