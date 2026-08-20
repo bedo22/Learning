@@ -1835,5 +1835,45 @@
     "users": [
       "sources/SOURCE-ACCESS.md"
     ]
+  },
+  "https://en.wikipedia.org/wiki/Force-field_analysis": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T22:04:34.006202+00:00",
+    "users": [
+      "ar/reverse-goal-setting.html"
+    ]
+  },
+  "https://en.wikipedia.org/wiki/Four_stages_of_competence": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T22:04:34.006202+00:00",
+    "users": [
+      "ar/skill-acquisition.html"
+    ]
+  },
+  "https://en.wikipedia.org/wiki/Goal_setting#Mechanisms": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T22:04:34.006202+00:00",
+    "users": [
+      "ar/reverse-goal-setting.html"
+    ]
+  },
+  "https://en.wikipedia.org/wiki/Latent_learning": {
+    "ok": true,
+    "detail": "http 200",
+    "ts": "2026-08-20T22:04:34.006202+00:00",
+    "users": [
+      "ar/skill-acquisition.html"
+    ]
+  },
+  "https://en.wikipedia.org/wiki/Skill_fade": {
+    "ok": false,
+    "detail": "http 404",
+    "ts": "2026-08-20T22:04:34.006202+00:00",
+    "users": [
+      "ar/skill-acquisition.html"
+    ]
   }
 }
