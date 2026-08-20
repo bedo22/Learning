@@ -2,34 +2,34 @@
 _Created 2026-08-19 from DOC-ANALYSIS.md findings. Work top-to-bottom; commit after each part._
 
 ## P1 — Plumbing sweep (link existing digests into under-linked docs)
-- [ ] P1.1 Run/verify link-sources.py coverage; find why rest-and-recovery was skipped
-- [ ] P1.2 rest-and-recovery: 0 → all available digests linked (~20)
+- [x] P1.1 Run/verify link-sources.py coverage; find why rest-and-recovery was skipped
+- [x] P1.2 rest-and-recovery: 0 → all available digests linked (~20)
 - [ ] P1.3 planning-and-execution: link Gollwitzer/planning-fallacy/goal digests
 - [ ] P1.4 ai-and-learning: link Bastani + Kestin digests
 - [ ] P1.5 skill-acquisition: link deliberate-practice/feedback digests
 - [ ] P1.6 self-management: link relevant digests
 - [ ] P1.7 note-taking: link ICAP/handwriting digests
-- [ ] P1.8 verify-links green + commit
+- [x] P1.8 verify-links green + commit
 
 ## P2 — Quartet rollout (Worked example · Failure modes · Principles · Summary)
 Template: focus-and-attention. Add to: rest-and-recovery*, study-advice*, memory-techniques*,
 metacognition, motivation, productivity-systems*, ai-and-learning*, skill-acquisition,
 reverse-goal-setting. (* = needs AR twin sync too)
-- [ ] P2.1 rest-and-recovery (+AR)
-- [ ] P2.2 study-advice (+AR)
-- [ ] P2.3 memory-techniques (+AR)
-- [ ] P2.4 metacognition-and-calibration (EN only until P3)
-- [ ] P2.5 motivation-and-self-determination (EN only until P3)
-- [ ] P2.6 productivity-systems (+AR)
-- [ ] P2.7 ai-and-learning (+AR)
-- [ ] P2.8 skill-acquisition (EN only until P3)
-- [ ] P2.9 reverse-goal-setting (EN only until P3)
-- [ ] P2.10 verify-twins all + verify-links + commit
+- [x] P2.1 rest-and-recovery (+AR)
+- [x] P2.2 study-advice (+AR)
+- [x] P2.3 memory-techniques (+AR)
+- [x] P2.4 metacognition-and-calibration (EN only until P3)
+- [x] P2.5 motivation-and-self-determination (EN only until P3)
+- [x] P2.6 productivity-systems (+AR)
+- [x] P2.7 ai-and-learning (+AR)
+- [x] P2.8 skill-acquisition (EN only until P3)
+- [x] P2.9 reverse-goal-setting (EN only until P3)
+- [x] P2.10 verify-twins all + verify-links + commit
 
 ## P3 — AR twins for 8 content docs
 Order: metacognition → motivation → note-taking → orders-of-learning → blooms →
 skill-acquisition → reverse-goal-setting → evidence-base
-- [ ] P3.1 metacognition-and-calibration AR twin
+- [x] P3.1 metacognition-and-calibration AR twin
 - [ ] P3.2 motivation-and-self-determination AR twin
 - [ ] P3.3 note-taking AR twin
 - [ ] P3.4 orders-of-learning AR twin
