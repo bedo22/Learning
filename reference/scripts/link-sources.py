@@ -141,6 +141,11 @@ def process_doc_v2(html_path, source_keys, dry_run=False):
         full_match = match.group(0)
         cite_content = match.group(1)
 
+        # Skip cite blocks that already carry a Sources line — re-running the
+        # script must never duplicate them.
+        if 'Sources:' in full_match or 'class="source-links"' in full_match:
+            return full_match
+
         # Extract references from the cite content
         refs = extract_paper_refs(cite_content)
         matched_keys = match_refs_to_keys(refs, source_keys)
@@ -188,6 +193,15 @@ def process_doc_v2(html_path, source_keys, dry_run=False):
 
         tag_end = idx + close_match.end()
         cite_text = content[tag_start:tag_end]
+
+        # Re-running the script must never DUPLICATE Sources lines: strip any
+        # existing one so a fresh, complete line is inserted below instead.
+        cite_text = re.sub(
+            r'\s*Sources:\s*(?:<a href="sources/[^"]+\.md">[^<]*</a>\s*)+',
+            "",
+            cite_text,
+            count=1,
+        )
 
         # Extract author surnames and match to source digests
         surnames = extract_author_surnames(cite_text)
