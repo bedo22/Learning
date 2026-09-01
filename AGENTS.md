@@ -14,9 +14,10 @@ refusal) until then — that is the gate working, not a bug.
 2. `reference/CONVENTIONS.md` governs the doc shelf; this file governs the
    pipeline layer.
 3. AR twins: EN canonical, twin sync gated on verification.
-4. Verify before trusting: `python3 tools/shelf.py selftest` (26/26) →
-   `doctor` → per-doc `check reference/<doc>.html` (doc lane runs today).
+4. Verify before trusting: `shelf selftest` (33/33) →
+   `doctor` → per-doc `shelf check reference/<doc>.html` (doc lane runs today).
 5. Re-fetch transcripts with `[MM:SS]` markers before enabling the transcript
-   lane; then scaffold notes with `python3 tools/shelf.py scaffold NNNN`.
+   lane; then scaffold notes with `shelf scaffold NNNN`.
 
-Version: `python3 tools/shelf.py --version` (1.2.18)
+Version: `shelf --version` (1.2.23 installed CLI — shelves carry no vendored
+   tools/ or scripts/ since the 2026-02 cutover).
