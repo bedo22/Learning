@@ -1,10 +1,11 @@
 # Learning ("Learn to Learn") — lessons + docs shelf (1.2.18 era)
 # Reality (2026-09-01): lessons/NNNN-*.html series + reference/*.html topic
-# docs (EN + ar twins). Transcripts = 8 raw YouTube dumps in Trascriptions/
-# WITHOUT [MM:SS] markers — minute cites impossible until re-fetched with
-# timestamps; transcript lane dormant until then.
+# docs (EN + ar twins). Transcripts: by design none — this shelf is not a
+# transcript shelf (not every shelf has transcripts); transcript lane dormant
+# by design, not missing. If transcripts are ever added, set transcripts_dir
+# and re-enable with youtube-transcription --with-timestamps.
 corpus:
-  transcripts_dir: "Trascriptions"              # raw txt, no timestamps yet
+  transcripts_dir: null                         # by design none (not missing)
   key_pattern: "\\d{4}"                          # lessons/NNNN-* grammar
   quote: {open: '"', close: '"'}                # EN docs
   claim_source: "quotes"                        # concrete (1.2.18 refuses 'auto'); revisit when notes exist
