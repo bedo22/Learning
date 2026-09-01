@@ -29,3 +29,11 @@
 
 ## Glossary
 - A shared glossary lives at `reference/learning-to-learn-glossary.html`. Every reference doc and lesson should adhere to its terms.
+
+## 2026-09-01 — shelf-pipeline 1.2.18 onboarding (greenfield wave 2)
+
+- Pipeline installed; 26/26 selftest; doctor clean (key \d{4}, EN quotes).
+- Config: honest scaffold — transcripts_dir Trascriptions declared DORMANT
+  (raw dumps, no timestamps); full check exits 2 by design until re-fetch.
+- Doc lane live: per-doc check runs (learning-myths: 8 uncited-quote advisories).
+- AGENTS.md created (pipeline layer; CONVENTIONS.md still governs the doc shelf).

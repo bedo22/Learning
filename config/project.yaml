@@ -1,0 +1,23 @@
+# Learning ("Learn to Learn") — lessons + docs shelf (1.2.18 era)
+# Reality (2026-09-01): lessons/NNNN-*.html series + reference/*.html topic
+# docs (EN + ar twins). Transcripts = 8 raw YouTube dumps in Trascriptions/
+# WITHOUT [MM:SS] markers — minute cites impossible until re-fetched with
+# timestamps; transcript lane dormant until then.
+corpus:
+  transcripts_dir: "Trascriptions"              # raw txt, no timestamps yet
+  key_pattern: "\\d{4}"                          # lessons/NNNN-* grammar
+  quote: {open: '"', close: '"'}                # EN docs
+  claim_source: "quotes"                        # concrete (1.2.18 refuses 'auto'); revisit when notes exist
+  ar_first: false
+  coverage_scope: "reference/*.html"
+  exclude_dirs: [Archive, sources, .agents]
+
+gates:
+  floor: auto
+  neglect_ratio: 0.10
+  thin_ratio: 0.20
+  essay_proxy: {quote_share: 0.55, min_words: 1200, min_paras: 6}
+  quarantine: null
+
+triage:
+  promote_to_gate: false
