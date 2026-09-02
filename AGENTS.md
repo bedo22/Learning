@@ -19,5 +19,5 @@ refusal) until then — that is the gate working, not a bug.
 5. Re-fetch transcripts with `[MM:SS]` markers before enabling the transcript
    lane; then scaffold notes with `shelf scaffold NNNN`.
 
-Version: `shelf --version` (1.2.23 installed CLI — shelves carry no vendored
+Version: `shelf --version` (installed CLI — shelves carry no vendored
    tools/ or scripts/ since the 2026-02 cutover).
